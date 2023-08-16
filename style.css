@@ -1,0 +1,101 @@
+/* style.css */
+
+body {
+    background-color: rgb(14, 11, 11);
+    margin: 0;
+    /* Remova as margens padrão do body */
+    overflow-x: hidden; /* Adicione isso para esconder a rolagem horizontal */
+}
+
+/* style.css */
+
+/* Resto do estilo do menu nav */
+
+/* Estilize o .texto */
+.texto {
+    position: relative;
+    color: rgb(100, 44, 204);
+    margin-top: 40px;
+    padding-left: 25px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+/* Estilize o .nav */
+.nav {
+    position: absolute;
+    top: 26px;
+    /* Igual à margem superior do .texto */
+    right: 20px;
+    /* Ajuste a posição horizontal conforme necessário */
+    display: flex;
+    padding: 20px;
+}
+
+.menu-item {
+    color: rgb(100, 44, 204);
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-item:hover {
+    color: #ffffff;
+}
+
+/*????????????????*/
+
+.texto2 {
+    color: rgb(100, 44, 204);
+    text-align: left;
+    padding: 100px;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    width: 100%;
+    margin: 0;
+    /* Remove a margem padrão */
+}
+
+.textojs {
+    color: #ffffff;
+    text-align: left;
+    margin-top: 60px;
+    /* Ajuste o espaçamento superior conforme desejado */
+    padding-top: 180px;
+    /* Ajuste o espaçamento interno conforme desejado */
+    padding-left: 130px;
+}
+
+
+.icons {
+    position: fixed;
+    bottom: 20px; /* Ajuste conforme necessário */
+    left: 30px; /* Ajuste conforme necessário */
+    font-size: 20px; /* Tamanho do ícone */
+    color: rgb(100, 44, 204); /* Cor do ícone */
+}
+
+
+.htmljs {
+    color: rgb(245, 94, 94);
+}
+
+.cssjs {
+    color: rgb(98, 98, 255);
+}
+
+.jsjs {
+    color: rgb(95, 255, 95);
+}
+
+.virgulajs {
+    color: rgb(255, 255, 255);
+}
